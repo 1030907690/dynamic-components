@@ -8,4 +8,11 @@
 <script setup lang="ts">
 let props = defineProps(['content'])
 
+const getValue =()=>{
+    return "img"
+}
+
+defineExpose({
+    getValue
+})
 </script>
